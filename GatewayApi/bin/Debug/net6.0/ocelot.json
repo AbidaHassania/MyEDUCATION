@@ -1,0 +1,117 @@
+{
+    "GlobalConfiguration": {
+        "BaseUrl": "https://localhost:5003"
+    },
+    "Routes": [{
+        "DownstreamPathTemplate": "/api/collabs",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [{
+            "Host": "localhost",
+            "Port": 5001
+        }],
+        "UpstreamPathTemplate": "/gateway/collabs",
+        "UpstreamHttpMethod": ["Get"]
+    
+    },
+    {
+        "UpstreamPathTemplate": "/gateway/collabs/{id}",
+        "UpstreamHttpMethod": ["Get", "Delete", "Put"],
+        "DownstreamPathTemplate": "/api/collabs/{id}",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [{
+            "Host": "localhost",
+            "Port": 5001
+        }]
+    },
+    {
+        "UpstreamPathTemplate": "/gateway/collabs",
+        "UpstreamHttpMethod": ["Post"],
+        "DownstreamPathTemplate": "/api/collabs",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [{
+            "Host": "localhost",
+            "Port": 5001
+        }]
+    },
+    {
+        "UpstreamPathTemplate": "/gateway/avanceDemandes",
+        "UpstreamHttpMethod": ["Get", "Post"],
+        "DownstreamPathTemplate": "/avanceApi/demandes",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [{
+            "Host": "localhost",
+            "Port": 5002
+        }]
+    },
+    {
+        "UpstreamPathTemplate": "/gateway/avanceDemandes/{id}",
+        "UpstreamHttpMethod": ["Get", "Delete", "Put"],
+        "DownstreamPathTemplate": "/avanceApi/demandes/{id}",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [{
+            "Host": "localhost",
+            "Port": 5002
+        }]
+    },
+    {
+        "UpstreamPathTemplate": "/gateway/mobilityDemandes",
+        "UpstreamHttpMethod": ["Get", "Post"],
+        "DownstreamPathTemplate": "/api/demandes",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [{
+            "Host": "localhost",
+            "Port": 5006
+        }]
+    },
+    {
+        "UpstreamPathTemplate": "/gateway/mobilityDemandes/{id}",
+        "UpstreamHttpMethod": ["Get", "Delete", "Put"],
+        "DownstreamPathTemplate": "/api/demandes/{id}",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [{
+            "Host": "localhost",
+            "Port": 5006
+        }]
+    },
+    {
+        "UpstreamPathTemplate": "/gateway/updateDemandes",
+        "UpstreamHttpMethod": ["Get", "Post"],
+        "DownstreamPathTemplate": "/api/demandes",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [{
+            "Host": "localhost",
+            "Port": 5007
+        }]
+    },
+    {
+        "UpstreamPathTemplate": "/gateway/updateDemandes/{id}",
+        "UpstreamHttpMethod": ["Get", "Delete","Put"],
+        "DownstreamPathTemplate": "/api/demandes/{id}",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [{
+            "Host": "localhost",
+            "Port": 5007
+        }]
+    },
+    {
+        "UpstreamPathTemplate": "/gateway/historique",
+        "UpstreamHttpMethod": ["Get", "Post"],
+        "DownstreamPathTemplate": "/api/demandes",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [{
+            "Host": "localhost",
+            "Port": 5005
+        }]
+    },
+    {
+        "UpstreamPathTemplate": "/gateway/historique/{id}",
+        "UpstreamHttpMethod": ["Get", "Delete","Put"],
+        "DownstreamPathTemplate": "/api/demandes/{id}",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [{
+            "Host": "localhost",
+            "Port": 5005
+        }]
+    }
+] 
+  }

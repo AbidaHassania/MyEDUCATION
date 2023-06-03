@@ -1,0 +1,12 @@
+C:\MyOCP_Services\shared.models\bin\Debug\net6.0\shared.models.deps.json
+C:\MyOCP_Services\shared.models\bin\Debug\net6.0\shared.models.dll
+C:\MyOCP_Services\shared.models\bin\Debug\net6.0\shared.models.pdb
+C:\MyOCP_Services\shared.models\obj\Debug\net6.0\shared.models.csproj.AssemblyReference.cache
+C:\MyOCP_Services\shared.models\obj\Debug\net6.0\shared.models.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyOCP_Services\shared.models\obj\Debug\net6.0\shared.models.AssemblyInfoInputs.cache
+C:\MyOCP_Services\shared.models\obj\Debug\net6.0\shared.models.AssemblyInfo.cs
+C:\MyOCP_Services\shared.models\obj\Debug\net6.0\shared.models.csproj.CoreCompileInputs.cache
+C:\MyOCP_Services\shared.models\obj\Debug\net6.0\shared.models.dll
+C:\MyOCP_Services\shared.models\obj\Debug\net6.0\refint\shared.models.dll
+C:\MyOCP_Services\shared.models\obj\Debug\net6.0\shared.models.pdb
+C:\MyOCP_Services\shared.models\obj\Debug\net6.0\ref\shared.models.dll
